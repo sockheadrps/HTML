@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A random bit of HTML</title>
+</head>
+<body>
+	<h1>This is an header (h1)</h1>
+	<ol>
+		<li>This is an ordered list (ol)</li>
+		<li>each element in the list</li>
+		<li>is wrapped by an (li)</li>
+	</ol>
+
+	<h2>This is also a header (h2)</h2>
+	<ul>
+		<li>This is an unordered list</li>
+		<li>This element in the list also has an unordered list associated specifically to it.
+			<ul>
+				<li>This is the first element in the unordered list. And it has an ordered list associated to it
+					<ol>
+						<li>some data</li>
+						<li>some data</li>
+						<li>There are also some descriptors for the way a word might be represented
+							<ol>
+								<li><strong>This is bold(strong)</strong></li>
+								<li><em>This is italics (em)</em></li>
+							</ol>
+						</li>
+						<li>some data</li>						
+					</ol>
+				</li>
+				<li>some data</li>
+				<li>some data</li>				
+			</ul>
+		</li>	
+	</ul>
+</body>
+</html>
