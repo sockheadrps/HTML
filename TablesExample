@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pokemon</title>
+	<title>Forms</title>
 </head>
+<h4>Typical Sign in with Username, Password and a button</h4>
+<form action="/sign-in-url" method="post">
+	<input type="text">
+	<input type="password">
+	<button>Login</button>
+</form>
+
+<!-- When this type is used, the user is required to type a valid e-mail address into the field; any other content causes the browser to display an error when the form is submitted. Note that this is client-side error validation, performed by the browser: -->
+<h4>Email</h4>
+<form>
+	<input type="email" id="email" name="email" multiple>
+</form>
+
+<!-- The main difference between a text field and a search field is how the browser styles it — often, search fields are rendered with rounded corners, and/or given an "x" to press to clear the entered value. However, there is another added feature worth noting: their values can be automatically saved to be auto completed across multiple pages on the same site -->
+<h4>Search</h4>
+<form>
+	<input type="search" id="search" name="search">
+</form>
+
+
+<!-- The main difference between a textarea and a regular single line text field is that users are allowed to type text that includes hard line breaks (i.e. pressing return). -->
+<h4>Text Area</h4>
+<form>
+	<textarea cols="30" rows="10"></textarea>
+</form>
+
+
+<!-- A check box is created using the <input> element with its type attribute set to the value checkbox.vv -->
+<h4>Checkbox</h4>
+<form>
+	<input type="checkbox" checked id="carrots" name="carrots" value="carrots">
+</form>	
+
+<!-- A button is created using a <button> element or an <input> element. It's the value of the type attribute that specifies what kind of button is displayed: -->
+<h4>Submit Button</h4>
+<form>	
+	<button type="submit">
+    This a <br><strong> strong submit button with br</strong>
+	</button>
+	<input type="submit" value="This is a submit button">
+</form>
+
 <body>
-
- <table border="1"> <!-- DONT DO THIS, ONLY STYLE IN CSS -->
- 	<thead>
- 		<th>Image</th>
- 		<th>Name</th>
- 		<th>Type</th>
- 		<th>Evolves to</th>
- 	</thead>
- 	<tbody>
- 	<!-- Bulbasaur -->
- 		<tr>
- 				<td>
- 					<img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></img>
- 				</td>
- 				<td>Bulbasaur</td>
- 				<td>Grass/Poison</td>
- 				<td>
- 					<a href="http://pokemon.wikia.com/wiki/Ivysaur ">Ivysaur</a>
- 				</td>
- 		</tr>
- 	<!-- Charmander -->
- 		<tr>
- 				<td>
- 					<img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></img>
- 				</td>
- 				<td>Charmander</td>
- 				<td>Fire</td>
- 				<td>
- 					<a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a>
- 				</td>
- 		</tr>
- 		<!-- Squirtle -->
-  		<tr>
- 				<td>
- 					<img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"></img>
- 				</td>
- 				<td>Squirtle</td>
- 				<td>Water</td>
- 				<td>
- 					<a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a>
- 				</td>
- 		</tr>
-
-
- 	</tbody>
-
- </table>
 
 </body>
 </html>
