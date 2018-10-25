@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bmcss.css">
+	<title>	Box Model </title>
+</head>
+<body>
+	<div class ="bmContainer">
+		<div class="bmClass" id="bmA" class="bmTextClass"><span>Content A</span></div>
+		<div class="bmClass" id="bmB" class="bmTextClass"><span>Content B</span></div>
+		<div class="bmClass" id="bmC" class="bmTextClass"><span>Content C</span></div>
+	</div>
+</body>
+</html>
